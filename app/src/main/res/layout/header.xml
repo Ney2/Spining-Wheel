@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:background="@color/colorPrimary2"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:padding="15dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+>
+    <ImageView
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:src="@drawable/pp"
+    />
+
+    <TextView
+            android:id="@+id/textViewUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="username"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Welcome to the game"
+            android:textSize="16dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/black"
+    />
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/home"
+                android:title="Home"
+                android:icon="@drawable/home"
+        />
+
+        <item
+                android:id="@+id/profile"
+                android:title="My Profile"
+                android:icon="@drawable/person"
+        />
+
+        <item
+                android:id="@+id/balance"
+                android:title="My Balance"
+                android:icon="@drawable/account_balance_wallet"
+        />
+
+        <item
+                android:id="@+id/setting"
+                android:title="Setting"
+                android:icon="@drawable/settings"
+        />
+
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                    android:id="@+id/share"
+                    android:icon="@drawable/share"
+                    android:title="Share"/>
+            <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/logout"
+                    android:title="LogOut"/>
+        </menu>
+    </item>
+
+</menu>
